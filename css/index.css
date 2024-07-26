@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+body {
+
+    background: radial-gradient(circle 600px at top left, #3957F1, #FFFF);
+}
+nav {
+    margin: 40px 40px 0 0;
+    width: 100%;
+    height: 50px;
+    text-align: right;
+display: flex;
+flex-direction: row;
+}
+
+#imgnav {
+    margin-left: 100px;
+    order:1;
+    height: 40px;
+    width: 70px;
+    order: 1;
+
+}
+
+a {
+margin-right: 30px;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    color: #414166;
+    display: inline-block;
+    transition: color 0.3s ease, transform 0.3s ease;
+    /* Transición suave para color y tamaño */
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #000000;
+    /* Color negro más fuerte */
+    transform: scale(1.2);
+    /* Aumenta el tamaño */
+}
+#menu{
+    width: 50%;
+    order: 2;
+    margin-left: 40%;
+    display: inline-block;
+}
+#menu-icon{
+    display: none;
+}
+#cancel{
+    display: none;
+    order:2;
+    font-size: 30px; 
+    color: #15163D;
+ margin-left: 10%;
+}
+.h1Contact {
+    font-weight: 700;
+    color: #15163D;
+    font-family: "Inter", sans-serif;
+    display: block;
+    font-size: 48pt;
+}
+
+h1 {
+    font-weight: 700;
+    color: #15163D;
+    font-family: "Inter", sans-serif;
+    display: block;
+    font-size: 40pt;
+}
+
+
+.contactanos {
+    margin: 10px 10px 0 100px;
+    width: 50%;
+
+
+}
+
+.diseño {
+    margin: 40px 10px 0 100px;
+    width: 50%;
+    order: 2;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    /* Ligero */
+    font-size: 12pt;
+    /* Tamaño de la fuente */
+
+}
+
+.button-Contacto {
+    background-color: #04146C;
+    /* Color de fondo */
+    border: none;
+    /* Sin borde por defecto */
+    color: white;
+    /* Color del texto */
+    padding: 10px 32px;
+    /* Espaciado interno */
+    text-align: center;
+    /* Centrado del texto */
+    text-decoration: none;
+    /* Sin subrayado */
+    display: inline-block;
+    /* Alineación en línea */
+    font-size: 16px;
+    /* Tamaño de la fuente */
+    margin: 20px 2px;
+    /* Margen externo */
+    cursor: pointer;
+    /* Cursor de mano al pasar por encima */
+    border-radius: 5px;
+    /* Borde rectangular */
+}
+
+.img1 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.divimage1 {
+    height: 50%;
+    width: 50%;
+    float: right;
+    margin: 80px 30px 0 30px;
+}
+
+.divimage2 {
+    height: 50%;
+    width: 50%;
+    margin: 80px 0px 0 50px;
+}
+
+
+.section1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* Alinea los elementos en una fila (horizontalmente) */
+    justify-content: space-between;
+    /* Espacio entre las columnas */
+}
+
+.section2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* Alinea los elementos en una fila (horizontalmente) */
+    justify-content: space-between;
+    /* Espacio entre las columnas */
+}
+
+.desarrollo {
+    margin: 40px 10px 0 100px;
+    width: 50%;
+
+}
+
+.testimonios {
+
+    font-family: "Inter";
+    text-align: center;
+    margin-top: 50px;
+    color: #15163D;
+    font-size: 25pt;
+}
+
+.cliente {
+    background-color: #EDF7FF;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 40px 30px 10px 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    /* Agrega sombra a los bordes */
+    position: relative;
+}
+
+.imagen-contenedor {
+    width: 50%;
+    padding-top: 50%;
+    /* Mantén la relación de aspecto 1:1 */
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    top: 10%;
+    /* Ajusta según la necesidad */
+    left: 50%;
+    /* Centra horizontalmente */
+    transform: translateX(-50%);
+    /* Ajusta el centrado horizontal */
+    overflow: hidden;
+}
+
+.imgCliente {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110%;
+    height: 110%;
+    object-fit: cover;
+    /* Ajusta la imagen para que cubra completamente el contenedor */
+    border-radius: 50%;
+    /* Hace que la imagen sea circular */
+}
+
+h6 {
+    padding-top: 70%;
+    font-weight: 600;
+    color: #15163D;
+    font-family: "Inter", sans-serif;
+    display: block;
+    font-size: 12pt;
+    margin: 0;
+}
+
+.pCliente {
+    margin: 0;
+    /* Elimina el margen alrededor del texto */
+    font-size: 14px;
+    /* Ajusta el tamaño del texto si es necesario */
+}
+
+.clientes {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* Alinea los elementos en una fila (horizontalmente) */
+    justify-content: space-around;
+    /* Espacio entre las columnas */
+}
+
+footer {
+    height: 300px;
+    width: 100%;
+    background-color: #15163D;
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 12pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    /* Ajusta el padding superior e inferior */
+    box-sizing: border-box;
+}
+
+.footerinfo {
+    display: flex;
+    width: 100%;
+    padding: 0 20px;
+    /* Ajusta el padding lateral */
+    box-sizing: border-box;
+}
+
+.footerinfo>ul {
+    margin: 0 40px;
+    /* Ajusta el margen entre las listas */
+    padding: 0;
+    list-style: none;
+    font-size: 10pt;
+}
+
+.footerinfo>ul>li {
+    margin-bottom: 30px;
+    /* Espacio entre los elementos de la lista */
+}
+
+.footerinfo>ul>li:first-child {
+    font-size: 14pt;
+    /* Ajusta el tamaño de la letra del primer elemento */
+    font-weight: bold;
+    /* Opcional: puede hacer el texto en negrita */
+}
+
+.pfooter {
+    font-size: 10pt;
+    text-align: center;
+    margin-top: 20px;
+    /* Ajusta el margen superior */
+    margin-bottom: 0;
+    /* Elimina el margen inferior */
+}
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 68.9%;
+        background: radial-gradient(circle 300px at top , #C9D1FF, #FFFF);
+    }
+nav{
+    height:100px;
+}
+    .section1 {
+        flex-direction: column !important;
+    }
+
+    .section2 {
+        flex-direction: column;
+    }
+
+    .h1Contact {
+        font-size: 35pt;
+        margin: 0;
+       
+    }
+.contactanos{
+    margin: 5% 0% 5% 5%;
+    text-align: center;
+    width: 90%;
+    max-width: 100%;
+}
+.divimage1{
+    width: 90%;
+    max-width: 100%;
+    margin: 5% 0% 5% 5%;
+}
+    h1 {
+      
+        font-size: 30pt;
+    }
+
+    .diseño {
+        text-align: center;
+        margin: 5% 0% 5% 5%;
+        order: 1;
+     width: 90%;
+        max-width: 100%;
+    }
+#menu-icon{
+    order: 2;
+    margin-left: 65%;
+    display: block;
+}
+  #menu {
+
+     margin-right: 5%;
+  gap: 20px;
+  font-size: 12pt;
+    }
+    #menu > a{
+        font-weight: 700;
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .divimage2 {
+        order: 2;
+        width: 90%;
+    max-width: 100%;
+    margin: 5% 0% 5% 5%;
+
+    }
+    .clientes {
+      
+        flex-direction: column;
+    
+    }
+    .desarrollo{
+        margin: 5% 0% 5% 5%;
+        text-align: center;
+        width: 90%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+  
+    #imgnav {
+        width: 50px;
+        height: 30px;
+        margin: 0 0 0 5%;
+    }
+}
